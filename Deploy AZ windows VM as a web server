@@ -1,0 +1,8 @@
+# Practise to deploy windows web server in your own lab using the below steps
+
+Create azure virtual machine resource with Windows Image
+Connect windows VM using RDP with the credentials provided while creating VM
+Install Web server (IIS) on the windows machine via Server manager
+Disable the web security feature if you are practising in your own lab
+Add Port 80 in NSG to allow HTTP traffic
+Check http://localhost on web server or connect to web server using public IP address from your local computer
